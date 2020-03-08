@@ -1,3 +1,9 @@
+body {
+    padding-top: 300px;
+
+}
+
+
 .navbar {
     height: 12rem;
     position: fixed;
@@ -6,12 +12,12 @@
 }
 
 .index-text {
-    margin-top: 12rem;
+    margin-top: 14rem;
 }
 
 @media screen and (min-width: 992px) {
     #navbarNav {
-        padding-left: 12rem;
+        padding-left: 16rem;
     }
 
     #navbarNav ul li {
@@ -19,6 +25,16 @@
     }
 
     #navbarNav ul li:hover {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
+
+
 }
+
+.carousel-item img {
+    height: 700px;
+}
+
+/* .d-block.w-100{
+    size:fl
+} */
