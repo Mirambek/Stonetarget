@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index:1000;
+    z-index: 1000;
 }
 
 .index-text {
@@ -15,21 +15,24 @@
     #navbarNav {
         padding-left: 12rem;
     }
+
     #navbarNav ul li {
         margin-right: 1.5rem;
     }
-    
+
 }
 
 @media only screen and (min-width: 1030) {
     #navbarNav {
         padding-left: 9rem;
     }
+
     #navbarNav ul li {
         margin-right: 0.8rem;
     }
 }
-.elementBorder {     
+
+.elementBorder {
     border-width: 0px;
     border-style: solid;
     height: 250px;
@@ -38,21 +41,22 @@
     display: inline-block;
 }
 
-@media screen and(max-width:920px) {    
- .elementBorder {     
-    height: 200px;
-    width: 200px;
- }
+@media screen and(max-width:920px) {
+    .elementBorder {
+        height: 200px;
+        width: 200px;
+    }
 }
 
 @media screen and (min-width: 1000px) {
     a.navbar-brand {
         margin-left: 4rem;
     }
+
     #navbarNav ul li:hover {
         font-size: 1.2rem;
     }
- 
+
 }
 
 .carousel-item img {
@@ -63,60 +67,75 @@
     size:fl
 } */
 
- 
-.elementBorder img{
+
+.elementBorder img {
     height: 100%;
     width: 100%;
-   
-}
-.text-desc{    
-    font-family: 'Poppins-Regular', sans-serif;
-}
-.row.descriptions>div{
-    padding-top: 2rem;
-}
-footer{
-    background: rgb(127, 127, 131);
-}
-@media only screen and (min-width:1000px){
-.list-services > div:first-child{
-    margin-left: 12.5%;
-}
+
 }
 
-.carousel-item img{
+.text-desc {
+    font-family: 'Poppins-Regular', sans-serif;
+}
+
+.row.descriptions>div {
+    padding-top: 2rem;
+}
+
+footer {
+    background: rgb(127, 127, 131);
+}
+
+@media only screen and (min-width:1000px) {
+    .list-services>div:first-child {
+        margin-left: 12.5%;
+    }
+}
+
+.carousel-item img {
     object-fit: cover;
 }
-footer{
-    color:rgba(244,243,244,1);
+
+footer {
+    color: rgba(244, 243, 244, 1);
     line-height: 3em;
     padding-bottom: 3rem;
 }
-.contact-info span{
+
+.contact-info span {
     font-size: 1.3rem
 }
 
-.address span,.contact-info span{
+.address span,
+.contact-info span {
     display: block;
 }
-footer i{
+
+footer i {
     font-size: 1.7rem !important;
 }
 
-#navbarnav{
+#navbarnav {
     bottom: -25px;
     position: relative;
 
 }
-#navbarnav ul li{
+
+#navbarnav ul li {
     font-size: large;
     text-transform: uppercase;
 }
-body{
-    color:rgba(56,54,55,1);
+
+body {
+    color: rgba(56, 54, 55, 1);
 }
-@media only screen and (max-width:810px){
-    #navbarnav{
-    background: snow !important;
+
+@media only screen and (max-width:810px) {
+    #navbarnav {
+        background: snow !important;
     }
+}
+
+#Red {
+    color: #c32017;
 }
